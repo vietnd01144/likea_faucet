@@ -1,0 +1,52 @@
+body {
+    font-family: Red Hat Display;
+}
+.main-sidebar {
+    width: 340px;
+    height: 80px;
+} 
+.main-sidebar .logo-sidebar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(99.57deg, #2B4940 0.77%, #1E2C39 78.32%);
+}
+.main-sidebar .sidebar {
+    background-color: #1D2239;
+    width: 100%;
+    height: 100vh;
+}
+.main-sidebar .sidebar .top-sidebar {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.main-sidebar .sidebar .top-sidebar .menu-top-sidebar {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: grid;
+    border-bottom: 1px solid #8691b230;
+}
+.main-sidebar .sidebar .top-sidebar .menu-top-sidebar .menu-up {
+    display: flex;
+    justify-content: space-between;
+}
+.main-sidebar .sidebar .top-sidebar .menu-top-sidebar .menu-down {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.main-sidebar .sidebar .list-menu-sidebar {
+    padding: 30px;
+}
+.nav-item .nav-link .text-menu-sidebar {
+    color: #8691B2;
+    margin-bottom: 0px;
+}

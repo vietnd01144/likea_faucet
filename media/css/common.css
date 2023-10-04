@@ -1,3 +1,27 @@
+.fs-12 {
+    font-size: 12px;
+}
+.fs-15 {
+    font-size: 15px;
+}
 .fs-16 {
     font-size: 16px;
+}
+.lh-16 {
+    line-height: 16px;
+}
+.lh-20 {
+    line-height: 20px;
+}
+.lh-22 {
+    line-height: 22px;
+}
+.fw-400 {
+    font-weight: 400;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.fw-800 {
+    font-weight: 800;
 }

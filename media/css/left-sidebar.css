@@ -1,52 +1,137 @@
 body {
-    font-family: Red Hat Display;
+  font-family: Red Hat Display;
+  color: #8691B2;
+}
+.text-primary-1 {
+    color: #fff;
 }
 .main-sidebar {
-    width: 340px;
-    height: 80px;
-} 
+  width: 340px;
+  height: 80px;
+}
 .main-sidebar .logo-sidebar {
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(99.57deg, #2B4940 0.77%, #1E2C39 78.32%);
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(99.57deg, #2b4940 0.77%, #1e2c39 78.32%);
 }
 .main-sidebar .sidebar {
-    background-color: #1D2239;
-    width: 100%;
-    height: 100vh;
+  background-color: #1d2239;
+  width: 100%;
+  padding: 30px;
 }
 .main-sidebar .sidebar .top-sidebar {
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    padding: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 .main-sidebar .sidebar .top-sidebar .menu-top-sidebar {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: grid;
-    border-bottom: 1px solid #8691b230;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: grid;
+  border-bottom: 1px solid #8691b230;
 }
 .main-sidebar .sidebar .top-sidebar .menu-top-sidebar .menu-up {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .main-sidebar .sidebar .top-sidebar .menu-top-sidebar .menu-down {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
 }
 .nav-item {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
-
 .main-sidebar .sidebar .list-menu-sidebar {
-    padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #8691b230;
+}
+.main-sidebar .sidebar .list-menu-sidebar ul {
+  margin: 0;
+  padding: 0;
+}
+.main-sidebar .sidebar .list-menu-sidebar ul li:last-child {
+  margin-bottom: 0px;
 }
 .nav-item .nav-link .text-menu-sidebar {
-    color: #8691B2;
-    margin-bottom: 0px;
+  color: #8691b2;
+  margin-bottom: 0px;
+  margin-left: 10px;
+}
+.advertising-page {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #8691b230;
+}
+.button-advertising-page {
+  padding: 12px;
+  background: linear-gradient(0deg, #1d2239, #1d2239),
+    linear-gradient(
+      97.41deg,
+      rgba(255, 255, 255, 0.03) 1.55%,
+      rgba(255, 255, 255, 0) 58.09%
+    );
+  display: flex;
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    97.41deg,
+    rgba(255, 255, 255, 0.03) 1.55%,
+    rgba(255, 255, 255, 0) 58.09%
+  );
+  text-decoration: none;
+  width: 100%;
+  border-radius: 14px;
+  justify-content: center;
+  box-shadow: 0px 2px 2px 0px #ffffff05 inset;
+}
+.button-advertising-page .text-advertising-page {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 10px;
+}
+.sidebar .join-our-community {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8691b230;
+}
+.invite-your-friend {
+    display: grid;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8691b230;
+}
+.faq-side {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #8691b230;
+}
+.invite-your-friend .content-side-invite {
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.invite-your-friend .side-copy-invite {
+    border: 1px solid #FFFFFF0D;
+    background: linear-gradient(0deg, #1D2239, #1D2239),
+linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05));
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    border-radius: 14px;
+}
+.invite-your-friend .side-copy-invite span {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.nav-link p {
+    margin: 0;
+}
+.faq-side ul {
+    margin-top: 12px;
 }

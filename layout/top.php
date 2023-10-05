@@ -36,3 +36,4 @@
             </section>
         </section>
     </section>
+<?php include_once '../layout/bottom.php'; ?>

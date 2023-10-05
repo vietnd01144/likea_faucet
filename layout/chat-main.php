@@ -31,14 +31,14 @@
             <span class="fw-500 fs-13 player-online">Player Online</span>
         </div>
         <div class="list-message">
-            <div class="coutdown-time-chat">
-                <div class="icon-coutdown-time">
+            <div class="countdown-time-chat">
+                <div class="icon-countdown-time">
                     <img src="../media/image/count-down.svg">
                 </div>
                 <div class="list-chat">
-                    <div class="content-coutdown">
-                        <span class="fw-bolder text-white fs-18 lh-24 title-content-coutdown">Chat Rain</span>
-                        <span class="body-content-coutdown fw-500 fs-13 lh-18">Randomly reward players in chat room every <span class="fw-900"> 5 Hour!</span></span>
+                    <div class="content-countdown">
+                        <span class="fw-bolder text-white fs-18 lh-24 title-content-countdown">Chat Rain</span>
+                        <span class="body-content-countdown fw-500 fs-13 lh-18">Randomly reward players in chat room every <span class="fw-900"> 5 Hour!</span></span>
                         <div class="fs-26 fw-bolder">
                             <span id="hour" class="text-white hour">
                                 
@@ -65,7 +65,7 @@
                         <span class="fw-bolder">KTT Darling</span>
                         <span>2:13Pm</span>
                     </div>
-                    <span class="body-content-coutdown fw-500 fs-13 lh-18">Hey! i will be glad to new accquaintances! 👋</span>
+                    <span class="body-content-countdown fw-500 fs-13 lh-18">Hey! i will be glad to new accquaintances! 👋</span>
                 </div>
             </div>
             <div class="message-chat mt-12">
@@ -77,7 +77,7 @@
                         <span class="fw-bolder">Jenny Wilson</span>
                         <span>2:13Pm</span>
                     </div>
-                    <span class="body-content-coutdown fw-500 fs-13 lh-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget risus nec quam ultricies egestas ut vel est. Fusce suscipit dolor in ex suscipit molestie.</span>
+                    <span class="body-content-countdown fw-500 fs-13 lh-18">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget risus nec quam ultricies egestas ut vel est. Fusce suscipit dolor in ex suscipit molestie.</span>
                 </div>
             </div>
             <div class="message-chat mt-12">
@@ -89,7 +89,7 @@
                         <span class="fw-bolder">Devon Lane</span>
                         <span>2:13Pm</span>
                     </div>
-                    <span class="body-content-coutdown fw-500 fs-13 lh-18">Morbi enim quam, pulvinar eu risus iaculis, mattis luctus</span>
+                    <span class="body-content-countdown fw-500 fs-13 lh-18">Morbi enim quam, pulvinar eu risus iaculis, mattis luctus</span>
                 </div>
             </div>
             <div class="message-chat mt-12">
@@ -101,7 +101,7 @@
                         <span class="fw-bolder">Albert Flores</span>
                         <span>2:13Pm</span>
                     </div>
-                    <span class="body-content-coutdown fw-500 fs-13 lh-18">Hey! i will be glad to new accquaintances! 😈😈😈</span>
+                    <span class="body-content-countdown fw-500 fs-13 lh-18">Hey! i will be glad to new accquaintances! 😈😈😈</span>
                 </div>
             </div>
             <div class="message-chat mt-12">
@@ -113,7 +113,7 @@
                         <span class="fw-bolder">Dianne Russell</span>
                         <span>2:13Pm</span>
                     </div>
-                    <span class="body-content-coutdown fw-500 fs-13 lh-18">Vestibulum quis libero lectus. Nulla rhoncus mi in augue tempus ultrices 😮‍💨😮‍💨</span>
+                    <span class="body-content-countdown fw-500 fs-13 lh-18">Vestibulum quis libero lectus. Nulla rhoncus mi in augue tempus ultrices 😮‍💨😮‍💨</span>
                 </div>
             </div>
             <div class="message-chat mt-12">
@@ -125,7 +125,7 @@
                         <span class="fw-bolder">Arlene McCoy</span>
                         <span>2:13Pm</span>
                     </div>
-                    <span class="body-content-coutdown fw-500 fs-13 lh-18">Hey! i will be glad to new accquaintances! 👋</span>
+                    <span class="body-content-countdown fw-500 fs-13 lh-18">Hey! i will be glad to new accquaintances! 👋</span>
                 </div>
             </div>
             <div class="message-chat mt-12">
@@ -137,7 +137,7 @@
                         <span class="fw-bolder">RioClass 17</span>
                         <span>2:13Pm</span>
                     </div>
-                    <span class="body-content-coutdown fw-500 fs-13 lh-18">Proin aliquam lacus vitae nulla sollicitudin condimentum.</span>
+                    <span class="body-content-countdown fw-500 fs-13 lh-18">Proin aliquam lacus vitae nulla sollicitudin condimentum.</span>
                 </div>
             </div>
         </div>

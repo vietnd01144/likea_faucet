@@ -23,7 +23,7 @@
   color: linear-gradient(0deg, #8691b2, #8691b2),
     linear-gradient(0deg, #ffffff, #ffffff);
 }
-.coutdown-time-chat {
+.countdown-time-chat {
   border-radius: 14px;
   margin-top: 16px;
   display: flex;
@@ -45,7 +45,7 @@
 
   box-shadow: 0px 2px 2px 0px #ffffff1a inset;
 }
-.content-coutdown {
+.content-countdown {
   display: grid;
   padding-left: 8px;
 }

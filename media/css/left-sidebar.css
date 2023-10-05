@@ -6,8 +6,6 @@ body {
     color: #fff;
 }
 .main-sidebar {
-  width: 340px;
-  height: 80px;
 }
 .main-sidebar .logo-sidebar {
   display: flex;

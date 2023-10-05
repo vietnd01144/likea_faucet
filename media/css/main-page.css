@@ -16,7 +16,17 @@
   padding: 44px 40px 44px 196px;
 }
 
-.main-container .daily-action .daily-gift {
+.main-container .daily-action .daily-action-group>div:not(:first-child) {
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.main-container .daily-action .daily-quest>div {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-container .daily-action .daily-gift>div {
+  margin-left: 30px;
   padding: 12px;
   column-gap: 10px;
   border-radius: 14px;
@@ -30,4 +40,75 @@
 
 .main-container .daily-action .daily-exp {
   color: var(--green-daily);
+}
+
+.main-container .menu-option .menu-item {
+  padding-top: 120px;
+}
+
+.main-container .menu-option .menu-item .item-icon {
+  top: -30%;
+}
+
+.main-container .menu-option .menu-item .item-body {
+  padding: 124px 25px 25px;
+  border-radius: 14px;
+  background: #161A2B;
+  box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 0.06) inset;
+}
+
+.main-container .menu-option .item-header {
+  margin-bottom: 64px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.main-container .menu-option .item-coin {
+  padding: 12px;
+  margin-top: 12px;
+  column-gap: 10px;
+  width: 100%;
+  border-radius: 14px;
+  background: #1D2239;
+  box-shadow: 0px 2px 2px 0px rgba(255, 255, 255, 0.02) inset;
+}
+
+.main-container .menu-option .item-coin span {
+  color: #FFF;
+  font-size: 0.9375rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+
+.main-container .all-progress {
+  margin-top: 10px;
+}
+
+.main-container .all-progress .simple-progressbar-generated-div {
+  display: flex;
+  align-items: center;
+  background-color: #292F4D !important;
+  height: 28px !important;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.main-container .all-progress .simple-progressbar-generated-div div {
+  padding: 4px 10px;
+  height: 22px !important;
+  background: linear-gradient(310deg, #F50 11.16%, #FFA071 86.78%) !important;
+  box-shadow: 0px 2px 2px 0px #FFBC8B inset !important;
+  border-radius: 14px;
+}
+
+.main-container .daily-quest .progress-group span {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.875rem;
 }

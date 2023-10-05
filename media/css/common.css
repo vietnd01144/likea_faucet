@@ -16,6 +16,9 @@
 .fs-12 {
     font-size: 0.75rem;
 }
+.fs-13 {
+    font-size: 13px;
+}
 
 .fs-14 {
     font-size: 0.875rem;
@@ -23,6 +26,9 @@
 
 .fs-15 {
     font-size: 0.9375rem;
+}
+.fs-24 {
+    font-size: 24px;
 }
 
 .fs-26 {
@@ -32,6 +38,12 @@
 .lh-16 {
     line-height: 1rem;
 }
+.lh-17 {
+    line-height: 17px;
+}
+.lh-18 {
+    line-height: 18px;
+}
 
 .lh-20 {
     line-height: 1.25rem;
@@ -39,4 +51,10 @@
 
 .lh-22 {
     line-height: 1.375rem;
+}
+.fw-900 {
+    font-weight: 900;
+}
+.mt-12 {
+    margin-top: 12px;
 }

@@ -153,3 +153,40 @@ body {
 .title-join-community  {
   margin-bottom: 10px;
 }
+input:valid {
+  color: #fff;
+}
+.submenu {
+  list-style: none;
+  padding-left: 32px !important;
+  margin: 0;
+}
+.submenu li a{
+  
+  text-decoration: none;
+}
+.text-coin  {
+  display: grid;
+}
+.text-coin a {
+  justify-content: space-between;
+}
+.submenu {
+  overflow: hidden;
+  max-height: 0;
+}
+.text-coin:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+ .icon-down {
+  display: none; 
+}
+
+.text-coin:hover .icon-up {
+  display: none;
+}
+
+.text-coin:hover .icon-down {
+  display: block;
+}

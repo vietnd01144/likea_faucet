@@ -40,15 +40,15 @@
                         <span class="fw-bolder text-white fs-18 lh-24 title-content-countdown">Chat Rain</span>
                         <span class="body-content-countdown fw-500 fs-13 lh-18">Randomly reward players in chat room every <span class="fw-900"> 5 Hour!</span></span>
                         <div class="fs-26 fw-bolder">
-                            <span id="hour" class="text-white hour">
+                            <span id="hour" class="text-white">
                                 
                             </span>
                             <span class="text-gray-daily"> h : </span>
-                            <span id="minute" class="text-white minutes">
+                            <span id="minute" class="text-white">
                                 
                             </span>
                             <span class="text-gray-daily"> m : </span>
-                            <span id="second" class="text-white second" >
+                            <span id="second" class="text-white" >
                                 
                             </span>
                             <span class="text-gray-daily"> s </span>

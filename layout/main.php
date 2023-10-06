@@ -8,11 +8,11 @@
       <div class="daily-countdown d-flex flex-column justify-content-center">
         <span class="text-white fw-semibold fs-14">Daily Countdown:</span>
         <div class="fs-26 fw-bolder">
-          <span id="hour" class="text-orange-daily hour"></span>
+          <span id="hours" class="text-orange-daily"></span>
           <span class="text-gray-daily"> h : </span>
-          <span id="minute" class="text-orange-daily minutes"></span>
+          <span id="minutes" class="text-orange-daily"></span>
           <span class="text-gray-daily"> m : </span>
-          <span id="second" class="text-orange-daily second"></span>
+          <span id="seconds" class="text-orange-daily"></span>
           <span class="text-gray-daily"> s </span>
         </div>
       </div>

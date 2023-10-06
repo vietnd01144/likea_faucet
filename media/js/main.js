@@ -22,7 +22,7 @@ var main = {
       currDate.getFullYear(),
       currDate.getMonth(),
       currDate.getDate(),
-      24,
+      17,
       0,
       0
     );
@@ -42,7 +42,7 @@ var main = {
       minutes = 0;
       seconds = 0;
     }
-    if (hours < "24") {
+    if (hours < "17") {
       hours = "0" + hours;
     }
     if (minutes < "10") {
@@ -54,6 +54,9 @@ var main = {
     $("#hour").html(hours);
     $("#minute").html(minutes);
     $("#second").html(seconds);
+    $("#hours").html(hours);
+    $("#minutes").html(minutes);
+    $("#seconds").html(seconds);
   },
 
   progressBar: function () {

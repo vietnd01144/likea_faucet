@@ -66,17 +66,17 @@
             </a>
         </li>
         <li class="nav-item-icon">
-            <a class="item-gift">
+            <a href="#" class="item-gift">
                 <img src="../media/image/gift.svg">
             </a>
         </li>
         <li class="nav-item-icon">
-            <a class="item-gift">
+            <a href="#" class="item-gift">
                 <img src="../media/image/pet.svg">
             </a>
         </li>
         <li class="nav-item-icon">
-            <a class="item-gift">
+            <a href="#" class="item-gift">
                 <img src="../media/image/message.svg">
                 <span class="badge badge-danger navbar-badge message-notify ">
                     <div class=" fs-12 text-primary-1 lh-17 fw-900">99+</div>
@@ -84,7 +84,7 @@
             </a>
         </li>
         <li class="nav-item-icon">
-            <a class="item-gift">
+            <a href="#" class="item-gift">
                 <div class="badge bell-notify badge-danger navbar-badge ">
                     <span class="fs-12 text-primary-1 lh-17 fw-900">3</span>
                 </div>

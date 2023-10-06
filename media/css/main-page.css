@@ -13,13 +13,14 @@
 }
 
 .main-container .daily-action {
-  background-image: url('../image/daily_icon.png');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .main-container .daily-action .daily-action-group {
   padding: 44px 40px 44px 196px;
+  background-image: url('../image/daily_icon.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 14px;
 }
 
 .main-container .daily-action .daily-action-group>div:not(:first-child) {

@@ -21,23 +21,17 @@ body {
   padding: 30px;
 }
 .main-sidebar .sidebar .top-sidebar {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 .main-sidebar .sidebar .top-sidebar .menu-top-sidebar {
   padding-top: 30px;
   padding-bottom: 30px;
-  display: grid;
   border-bottom: 1px solid #8691b230;
 }
-.main-sidebar .sidebar .top-sidebar .menu-top-sidebar .menu-up {
-  display: flex;
-  justify-content: space-between;
-}
-.main-sidebar .sidebar .top-sidebar .menu-top-sidebar .menu-down {
-  display: flex;
-  justify-content: space-between;
+.main-sidebar .sidebar .top-sidebar .menu-top-sidebar > div:last-child {
   margin-top: 10px;
 }
 .nav-item {

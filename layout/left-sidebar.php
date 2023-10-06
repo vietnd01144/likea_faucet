@@ -9,16 +9,24 @@
     <div class="sidebar">
         <div class="top-sidebar">
             <div class="logo-arena">
-                <img src="../media/image/logo-arena.svg">
+                <img src="../media/image/logo-arena.svg" class="w-100">
             </div>
-            <div class="menu-top-sidebar row">
-                <div class="menu-up col">
-                    <img src="../media/image/daily-quests.svg">
-                    <img src="../media/image/free-roll.svg">
+            <div class="menu-top-sidebar">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../media/image/daily-quests.svg" class="w-100">
+                    </div>
+                    <div class="col-6">
+                        <img src="../media/image/free-roll.svg" class="w-100">
+                    </div>
                 </div>
-                <div class="menu-down col">
-                    <img src="../media/image/bonues.svg">
-                    <img src="../media/image/lottery.svg">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../media/image/bonues.svg" class="w-100">
+                    </div>
+                    <div class="col-6">
+                        <img src="../media/image/lottery.svg" class="w-100">
+                    </div>
                 </div>
             </div>
         </div>

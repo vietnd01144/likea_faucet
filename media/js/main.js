@@ -6,15 +6,33 @@ var main = {
   SELECTORS: {
     all_progress: ".all-progress",
     item_progress: ".item-progress",
+    icon_close : ".icon-close",
+    icon_message_circle: ".icon-message-circle"
   },
 
   init: function () {
     main.progressBar();
     main.itemProgressBar();
+    main.clickCloseChat();
+    main.clickOpenChat();
     setInterval(function () {
       main.countDown();
     }, 1000);
   },
+
+  clickCloseChat : function() {
+    $(main.SELECTORS.icon_close).on('click', function() {
+      $(".chat-main").css("display", "none");
+      $(".icon-message-circle").css("display","block")
+    }) 
+  },
+  clickOpenChat : function() {
+    $(main.SELECTORS.icon_message_circle).on('click', function() {
+      $(".chat-main").css("display", "block");
+      $(".icon-message-circle").css("display","none")
+    }) 
+  },
+
 
   countDown: function () {
     var currDate = new Date();

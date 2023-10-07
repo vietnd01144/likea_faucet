@@ -1,34 +1,41 @@
 <section class="chat-main container">
     <div class="chat-main-side">
         <div class="user-online">
-            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g filter="url(#filter0_i_1396_39671)">
-                    <circle cx="5.5" cy="5.5" r="5.5" fill="url(#paint0_linear_1396_39671)" />
-                </g>
-                <circle cx="5.5" cy="5.5" r="5" stroke="url(#paint1_linear_1396_39671)" />
-                <defs>
-                    <filter id="filter0_i_1396_39671" x="0" y="0" width="11" height="13" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                        <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                        <feOffset dy="2" />
-                        <feGaussianBlur stdDeviation="1" />
-                        <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                        <feColorMatrix type="matrix" values="0 0 0 0 0.545833 0 0 0 0 1 0 0 0 0 0.6512 0 0 0 1 0" />
-                        <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1396_39671" />
-                    </filter>
-                    <linearGradient id="paint0_linear_1396_39671" x1="10.5175" y1="11" x2="-0.707875" y2="10.2227" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="#28A745" />
-                        <stop offset="1" stop-color="#5ED078" />
-                    </linearGradient>
-                    <linearGradient id="paint1_linear_1396_39671" x1="0.192983" y1="-3.69265e-06" x2="7.10391" y2="0.899342" gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" stop-opacity="0.5" />
-                        <stop offset="1" stop-color="white" stop-opacity="0" />
-                    </linearGradient>
-                </defs>
-            </svg>
-            <span class="fw-900 fs-13 text-white number-user">25</span>
-            <span class="fw-500 fs-13 player-online">Player Online</span>
+            <div class="user-onlie-left">
+                <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g filter="url(#filter0_i_1396_39671)">
+                        <circle cx="5.5" cy="5.5" r="5.5" fill="url(#paint0_linear_1396_39671)" />
+                    </g>
+                    <circle cx="5.5" cy="5.5" r="5" stroke="url(#paint1_linear_1396_39671)" />
+                    <defs>
+                        <filter id="filter0_i_1396_39671" x="0" y="0" width="11" height="13" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                            <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                            <feOffset dy="2" />
+                            <feGaussianBlur stdDeviation="1" />
+                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
+                            <feColorMatrix type="matrix" values="0 0 0 0 0.545833 0 0 0 0 1 0 0 0 0 0.6512 0 0 0 1 0" />
+                            <feBlend mode="normal" in2="shape" result="effect1_innerShadow_1396_39671" />
+                        </filter>
+                        <linearGradient id="paint0_linear_1396_39671" x1="10.5175" y1="11" x2="-0.707875" y2="10.2227" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#28A745" />
+                            <stop offset="1" stop-color="#5ED078" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_1396_39671" x1="0.192983" y1="-3.69265e-06" x2="7.10391" y2="0.899342" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="white" stop-opacity="0.5" />
+                            <stop offset="1" stop-color="white" stop-opacity="0" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+                <span class="fw-900 fs-13 text-white number-user">25</span>
+                <span class="fw-500 fs-13 player-online">Player Online</span>
+            </div>
+            <div class="icon-close">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="Close">
+                    <path d="M13.41,12l6.3-6.29a1,1,0,1,0-1.42-1.42L12,10.59,5.71,4.29A1,1,0,0,0,4.29,5.71L10.59,12l-6.3,6.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L12,13.41l6.29,6.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z" fill="#ffffff" class="color000000 svgShape"></path>
+                </svg>
+            </div>
         </div>
         <div class="list-message">
             <div class="countdown-time-chat">
@@ -39,17 +46,17 @@
                     <div class="content-countdown">
                         <span class="fw-bolder text-white fs-18 lh-24 title-content-countdown">Chat Rain</span>
                         <span class="body-content-countdown fw-500 fs-13 lh-18">Randomly reward players in chat room every <span class="fw-900"> 5 Hour!</span></span>
-                        <div class="fs-26 fw-bolder">
+                        <div class="fs-26 fw-bolder countdown-time">
                             <span id="hour" class="text-white">
-                                
+
                             </span>
                             <span class="text-gray-daily"> h : </span>
                             <span id="minute" class="text-white">
-                                
+
                             </span>
                             <span class="text-gray-daily"> m : </span>
-                            <span id="second" class="text-white" >
-                                
+                            <span id="second" class="text-white">
+
                             </span>
                             <span class="text-gray-daily"> s </span>
                         </div>
@@ -153,4 +160,5 @@
             </svg>
         </a>
     </div>
+
 </section>

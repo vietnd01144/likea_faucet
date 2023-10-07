@@ -7,7 +7,7 @@
     <div class="daily-action-group d-flex justify-content-between">
       <div class="daily-countdown d-flex flex-column justify-content-center">
         <span class="text-white fw-semibold fs-14">Daily Countdown:</span>
-        <div class="fs-26 fw-bolder">
+        <div class="fs-26 countdown-time fw-bolder">
           <span id="hours" class="text-orange-daily"></span>
           <span class="text-gray-daily"> h : </span>
           <span id="minutes" class="text-orange-daily"></span>
@@ -33,7 +33,7 @@
 
       <div class="daily-gift">
         <div class="d-flex">
-          <div>
+          <div class="gift-side">
             <img src="../media/image/daily_gift.png" alt="">
           </div>
           <div>

@@ -1,6 +1,10 @@
 <nav class="main-header navbar navbar-expand">
+    <div class="logo-sidebar d-xl-none d-flex justify-content-center">
+        <img src="../media/image/logo-sidebar.svg" class="ms-md-3 w-75">
+    </div>
+
     <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
+    <ul class="navbar-nav ml-auto d-md-flex d-none">
         <li class="nav-item nav-item-money">
             <a class="nav-link nav-link-header nav-link-money" data-toggle="dropdown" href="#">
                 <div class="money-item-left">
@@ -34,7 +38,7 @@
             </a>
         </li>
     </ul>
-    <ul class="navbar-nav ml-auto navbar-icon">
+    <ul class="navbar-nav ml-auto navbar-icon d-md-flex d-none">
         <li class="nav-item">
             <a class="nav-link nav-link-wallet" data-toggle="dropdown" href="#">
                 <svg width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../media/css/bootstrap.min.css">
     <link rel="stylesheet" href="../media/css/common.css">
-    <link rel="stylesheet" href="../media/css/common.css">
     <link rel="stylesheet" href="../media/css/left-sidebar.css">
     <link rel="stylesheet" href="../media/css/main-page.css">
     <link rel="stylesheet" href="../media/css/header.css">
@@ -20,16 +19,16 @@
 <body>
     <section class="container-fluid">
         <section class="wrapper row">
-            <div class="col-2 px-0">
+            <div class="col-xl-2 px-0 d-none d-xl-block">
                 <?php include_once '../layout/left-sidebar.php'; ?>
             </div>
-            <section class="main-container col-10">
+            <section class="main-container col-xl-10 col-12">
                 <div class="row">
                     <?php include_once '../layout/header.php'; ?>
-                    <div class="col-9">
+                    <div class="col-xxl-9 col-12">
                         <?php include_once '../layout/main.php'; ?>
                     </div>
-                    <div class="col-3 right-chat">
+                    <div class="col-xxl-3 right-chat d-none d-xxl-block">
                         <?php include_once '../layout/chat-main.php'; ?>
 
                     </div>

@@ -4,8 +4,8 @@
   </div>
 
   <div class="daily-action ">
-    <div class="daily-action-group d-flex justify-content-between">
-      <div class="daily-countdown d-flex flex-column justify-content-center">
+    <div class="daily-action-group d-flex justify-content-between flex-md-row flex-column">
+      <div class="daily-countdown d-flex flex-column justify-content-center text-center text-md-start mb-3 mb-md-0">
         <span class="text-white fw-semibold fs-14">Daily Countdown:</span>
         <div class="fs-26 countdown-time fw-bolder">
           <span id="hours" class="text-orange-daily"></span>
@@ -17,7 +17,7 @@
         </div>
       </div>
 
-      <div class="daily-quest d-flex flex-column justify-content-center">
+      <div class="daily-quest d-flex flex-column justify-content-center text-center text-md-start mb-3 mb-md-0">
         <div>
           <span class="text-white fw-semibold fs-14">Complete All Quests</span>
           <div class="position-relative progress-group">
@@ -52,7 +52,7 @@
 
     <div class="menu-option">
       <div class="row">
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item1.png" alt="">
@@ -81,7 +81,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item2.png" alt="">
@@ -110,7 +110,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item3.png" alt="">
@@ -139,7 +139,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item4.png" alt="">
@@ -168,7 +168,7 @@
           </div>
         </div>
 
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item5.png" alt="">
@@ -196,7 +196,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item6.png" alt="">
@@ -224,7 +224,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item7.png" alt="">
@@ -252,7 +252,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item8.png" alt="">
@@ -280,7 +280,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item9.png" alt="">
@@ -308,7 +308,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item10.png" alt="">
@@ -336,7 +336,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item11.png" alt="">
@@ -364,7 +364,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item12.png" alt="">
@@ -392,7 +392,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item13.png" alt="">
@@ -420,7 +420,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item14.png" alt="">
@@ -448,7 +448,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item15.png" alt="">
@@ -476,7 +476,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item16.png" alt="">
@@ -504,7 +504,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item17.png" alt="">
@@ -532,7 +532,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item18.png" alt="">
@@ -560,7 +560,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item19.png" alt="">
@@ -588,7 +588,7 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 menu-item">
+        <div class="col-xl-3 col-lg-4 col-md-6 menu-item">
           <div class="position-relative">
             <div class="item-icon position-absolute">
               <img src="../media/image/item20.png" alt="">
@@ -628,7 +628,7 @@
   <div>
     <span>© 2023 LikeaFaucet</span>
   </div>
-  <ul class="d-flex flex-row">
+  <ul class="d-flex flex-row flex-wrap">
     <li>
       <a href="#">
         <span>Terms of Service</span>

@@ -1,7 +1,7 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <div class="logo-sidebar">
+    <div class="logo-sidebar d-none d-xl-flex">
         <img src="../media/image/logo-sidebar.svg">
     </div>
 

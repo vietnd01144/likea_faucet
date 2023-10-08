@@ -77,8 +77,9 @@ a {
     background: #101320;
 }
 @media only screen and (max-width: 1560px) {
+
     .countdown-time {
-        font-size: 14px;
+        font-size: 1.20rem;
     }
     .title-content-countdown {
         font-size: 14px;
@@ -100,7 +101,8 @@ a {
         padding: 8px !important;
     }
     .main-container .daily-action .daily-action-group {
-        padding: 44px 40px 44px 160px !important;
+        background-size: 100% 92%;
+        padding: 44px 40px 44px 130px !important;
     }
     .body-message {
         margin-left: 10px !important;

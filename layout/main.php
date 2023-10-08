@@ -34,7 +34,7 @@
       <div class="daily-gift">
         <div class="d-flex">
           <div class="gift-side">
-            <img src="../media/image/daily_gift.png" alt="">
+            <img src="../media/image/daily_gift.svg" alt="">
           </div>
           <div>
             <span class="text-white fw-semibold fs-12">
